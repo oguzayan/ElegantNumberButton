@@ -11,6 +11,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:background="@android:color/transparent"
+        android:fontFamily="@font/helvetica_neue_bold"
         android:text="-" />
 
     <TextView
@@ -20,6 +21,7 @@
         android:layout_gravity="center"
         android:layout_weight="1"
         android:background="@android:color/transparent"
+        android:fontFamily="@font/helvetica_neue_bold"
         android:gravity="center" />
 
     <Button
@@ -28,6 +30,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:background="@android:color/transparent"
+        android:fontFamily="@font/helvetica_neue_bold"
         android:text="+" />
 
 </LinearLayout>
