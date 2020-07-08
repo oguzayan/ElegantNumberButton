@@ -58,7 +58,7 @@ public class ElegantNumberButton extends RelativeLayout {
         final Resources res = getResources();
         final int defaultColor = res.getColor(R.color.colorPrimary);
         final int defaultTextColor = res.getColor(R.color.colorText);
-        final Drawable defaultDrawable = res.getDrawable(R.drawable.background);
+        final Drawable defaultDrawable = res.getDrawable(R.drawable.bg_orange_rectangle_login_button);
 
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.ElegantNumberButton,
                 styleAttr, 0);
