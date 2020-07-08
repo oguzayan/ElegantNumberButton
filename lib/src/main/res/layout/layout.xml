@@ -3,6 +3,7 @@
     android:id="@+id/layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:padding="16dp"
     android:background="@drawable/bg_orange_rectangle_login_button"
     android:orientation="horizontal">
 
