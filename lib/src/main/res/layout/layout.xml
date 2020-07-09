@@ -3,7 +3,6 @@
     android:id="@+id/layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="16dp"
     android:background="@drawable/bg_orange_rectangle_login_button"
     android:orientation="horizontal">
 
@@ -12,10 +11,10 @@
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:textColor="#ffffff"
         android:background="@android:color/transparent"
         android:fontFamily="@font/helvetica_neue_bold"
-        android:text="-" />
+        android:text="-"
+        android:textColor="#ffffff" />
 
     <TextView
         android:id="@+id/number_counter"
@@ -23,19 +22,19 @@
         android:layout_height="match_parent"
         android:layout_gravity="center"
         android:layout_weight="1"
-        android:textColor="#ffffff"
         android:background="@android:color/transparent"
         android:fontFamily="@font/helvetica_neue_bold"
-        android:gravity="center" />
+        android:gravity="center"
+        android:textColor="#ffffff" />
 
     <Button
         android:id="@+id/add_btn"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:textColor="#ffffff"
         android:background="@android:color/transparent"
         android:fontFamily="@font/helvetica_neue_bold"
-        android:text="+" />
+        android:text="+"
+        android:textColor="#ffffff" />
 
 </LinearLayout>
