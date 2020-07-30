@@ -136,6 +136,9 @@ public class ElegantNumberButton extends RelativeLayout {
         if (this.currentNumber < initialNumber) {
             this.currentNumber = initialNumber;
         }
+//        textView.setText(String.valueOf(currentNumber));
+    }
+    public void updateUI(){
         textView.setText(String.valueOf(currentNumber));
     }
 
