@@ -22,12 +22,18 @@ android {
         sourceCompatibility = 1.8
         targetCompatibility = 1.8
     }
+    dataBinding {
+        enabled = true
+    }
 }
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation project(':lib')
+    //dataBinding
+    annotationProcessor 'androidx.databinding:databinding-compiler:4.0.0'
+    annotationProcessor  'androidx.databinding:databinding-compiler:4.0.0'
 
     testImplementation 'junit:junit:4.12'
 
