@@ -138,8 +138,10 @@ public class ElegantNumberButton extends RelativeLayout {
         }
 //        textView.setText(String.valueOf(currentNumber));
     }
-    public void updateUI(){
-        textView.setText(String.valueOf(currentNumber));
+
+    public void updateUI() {
+        if (currentNumber != 0)
+            textView.setText(String.valueOf(currentNumber));
     }
 
     public void setNumber(String number, boolean notifyListener) {
